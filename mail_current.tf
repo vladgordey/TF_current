@@ -5,7 +5,7 @@ provider "aws" {
 
 data "aws_availability_zones" "available" {}
 
-module "my_vpc_mod"
+module "my_vpc_mod"{
     source = "github.com/vladgordey/TF_VPC_mod"
 	vpc_cidr = "${var.vpc_cidr}"
 	short_name ="${var.short_name}"
