@@ -50,7 +50,7 @@ variable "rds_storage_type" {
     default = "standard"
 }
 variable "rds_allocated_storage" {
-	default = 10
+	default = "10"
     description = "The allocated storage in GBs"
 }
 variable "rds_engine_type" {
